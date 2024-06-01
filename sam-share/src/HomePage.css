@@ -36,7 +36,7 @@
     border-radius: 50px;
     margin-top: 15px;
     margin: 10px;
-    background-image:url('./story-pic/my-story1.jpg');
+    background-image:url('./story-pic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
     background-size: cover;
 }
 
@@ -80,11 +80,11 @@
 }
 #story2{
     margin-top: 80px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 #story3{
     margin-top: 80px;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 #story4{
     margin-top: 80px;
@@ -114,7 +114,7 @@
     /* border: 1px solid black; */
     margin-top: 30px;
     margin-left: 13px;
-    background-image: url('./profile-pic/profile1.jpg');
+    background-image: url('./profile-pic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
     background-size: cover;
 }
 /* instagram id name */
@@ -457,7 +457,7 @@ footer{
     height: 30px;
     /* background-color: greenyellow; */
     border-radius: 30px;
-    background-image: url('./profile-pic/kutty-profile.jpg');
+    background-image: url('./profile-pic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
     background-size: cover;
 }
 

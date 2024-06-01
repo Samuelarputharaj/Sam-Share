@@ -23,11 +23,11 @@ function HomePage() {
       </div>
       <div className="circle2">
         <div className="cirimg2" />
-        <p id="story2">bala</p>
+        <p id="story2">freak_24</p>
       </div>
       <div className="circle3">
         <div className="cirimg3" />
-        <p id="story3">suresh</p>
+        <p id="story3">its_shabana</p>
       </div>
       <div className="circle4">
         <div className="cirimg4" />
@@ -41,7 +41,7 @@ function HomePage() {
         <div className="profilemy"></div>
         <div>
           <p className="instaid-1">
-            <b>cs_bala</b>
+            <b>sam_dood1</b>
           </p>
         </div>
         <div>
