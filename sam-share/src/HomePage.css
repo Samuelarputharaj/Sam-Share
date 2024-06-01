@@ -1,5 +1,10 @@
 *{
     margin:0px;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
 }
 
 .header-area{
@@ -113,7 +118,7 @@
     border-radius: 50px;
     /* border: 1px solid black; */
     margin-top: 30px;
-    margin-left: 13px;
+    margin-left: 34px;
     background-image: url('./profile-pic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
     background-size: cover;
 }
@@ -135,7 +140,8 @@
     width: 355px;
     height: 650px;
     border: 1px solid black;
-    margin: 8px;
+    margin: 15px;
+    margin-left: 34px;
 }
 
 
@@ -450,6 +456,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    color: black;
 }
 
 .smallcircle{

@@ -363,7 +363,7 @@ function HomePage() {
   <footer>
     <div className="footer-area">
       <div>
-        <i className="fa-solid fa-house" />
+      <i class="fa-solid fa-house"/>
       </div>
       <div>
         <i className="fa-solid fa-magnifying-glass" />
