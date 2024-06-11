@@ -4,6 +4,7 @@ import './Login.css'
 import './Welcomepage.css'
 import './SignUpPage.css'
 import HomePage from './HomePage';
+import AboutPage from './AboutPage';
 function LognInPage({ setPageTab, setUserId }) {
   const[username,setUsername]=useState("");
   const[password,setPassword]=useState("");
@@ -216,20 +217,27 @@ function WelcomePage({ setPageTab }) {
 }
 
 function MainComp() {
-    const [pageTab, setPageTab] = useState("");
-    const [userId, setUserId] = useState("");
+  const [pageTab, setPageTab] = useState("home");
+  const [userId, setUserId] = useState("");
 
-    switch (pageTab) {
-        case "sign-in":
-            return <LognInPage setPageTab={setPageTab} setUserId={setUserId} />;
-        case "sign-up":
-            return <SignUpPage setPageTab={setPageTab} setUserId={setUserId} />;
-        case "home":
-            return <HomePage setPageTab={setPageTab} userId={userId} />;
-        default:
-            return <WelcomePage setPageTab={setPageTab} />;
-    }
+  const handleNavigation = (page) => {
+    setPageTab(page);
+  };
+
+  switch (pageTab) {
+    case "sign-in":
+      return <LognInPage setPageTab={setPageTab} setUserId={setUserId} />;
+    case "sign-up":
+      return <SignUpPage setPageTab={setPageTab} setUserId={setUserId} />;
+    case "home":
+      return <HomePage setPageTab={setPageTab} userId={userId} handleNavigation={handleNavigation} />;
+    case "about":
+      return <AboutPage setPageTab={setPageTab} userId={userId} handleNavigation={handleNavigation} />;
+    default:
+      return <WelcomePage setPageTab={setPageTab} handleNavigation={handleNavigation} />;
+  }
 }
+
 
 function App() {
     return (

@@ -1,13 +1,10 @@
-*{
-    margin:0px;
-
-}
 body{
     height: 100vh;
     width: 100vw;
+    margin:0px;
 }
 
-.header-area{
+#container{
     position: relative;
     /* background-color:aqua; */
     width: 100vw;
@@ -15,6 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
     /* padding: 10px ; */
 }
 
@@ -78,7 +76,6 @@ body{
     background-size: cover;
 }
 
-
 /* story bottom text align */
 #story1{
     margin-top: 80px;
@@ -106,47 +103,30 @@ body{
 /* post image reels page */
 .profile{
     display: flex;
+    margin-top: 33px;
+    justify-content: space-between;
+    margin-left: 15px;
     align-items: center;
-
+    margin-right: 17px;
+    height: 50px;
 }
+
 
 /* other insta  profile id 1*/
 .profilemy{
     width:35px;
     height: 35px;
-    /* background-color: greenyellow; */
     border-radius: 50px;
-    /* border: 1px solid black; */
-    margin-top: 30px;
-    margin-left: 34px;
     background-image: url('./profile-pic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
     background-size: cover;
 }
-/* instagram id name */
-.instaid-1{
-    margin-top: 25px;
-    margin-left: 13px;
-}
-/* 3 dots edit area */
-#fa-ellipsis-vertical-1{
-    margin-top: 28px;
-    margin-left: 250px;
-}
 
-
-
-
-.box{
+.status-box{
     width: 355px;
     height: 650px;
     border: 1px solid black;
-    margin: 15px;
-    margin-left: 34px;
+    margin: 9px;
 }
-
-
-
-
 
 /* profile box 1 */
 #box1{
@@ -177,23 +157,9 @@ body{
 .nature{
     width:35px;
     height: 35px;
-    /* background-color: greenyellow; */
     border-radius: 50px;
-    /* border: 1px solid black; */
-    margin-top: 30px;
-    margin-left: 13px;
     background-image: url('./profile-pic/profile2.jpg');
     background-size: cover;
-}
-/* instagram id name */
-.instaid-2{
-    margin-top: 25px;
-    margin-left: 13px;
-}
-/* 3 dots edit area */
-#fa-ellipsis-vertical-2{
-    margin-top: 28px;
-    margin-left: 197px;
 }
 #box2{
     background-image: url('./other-insta-post/pic2.jpg');
@@ -208,21 +174,8 @@ body{
     height: 35px;
     /* background-color: greenyellow; */
     border-radius: 50px;
-    /* border: 1px solid black; */
-    margin-top: 30px;
-    margin-left: 13px;
     background-image: url('./profile-pic/profile3.jpeg');
     background-size: cover;
-}
-/* instagram id name */
-.instaid-3{
-    margin-top: 25px;
-    margin-left: 13px;
-}
-/* 3 dots edit area */
-#fa-ellipsis-vertical-3{
-    margin-top: 28px;
-    margin-left: 248px;
 }
 
 #box3{
@@ -235,25 +188,10 @@ body{
 .mobile{
     width:35px;
     height: 35px;
-    /* background-color: greenyellow; */
-    border-radius: 50px;
-    /* border: 1px solid black; */
-    margin-top: 30px;
-    margin-left: 13px;
     background-image: url('./profile-pic/profile4.jpg');
     background-size: cover;
+    border-radius: 50px;
 }
-/* instagram id name */
-.instaid-4{
-    margin-top: 25px;
-    margin-left: 13px;
-}
-/* 3 dots edit area */
-#fa-ellipsis-vertical-4{
-    margin-top: 28px;
-    margin-left: 210px;
-}
-
 #box4{
     background-image: url('./other-insta-post/pic4.jpg');
     background-size: cover;
@@ -264,54 +202,22 @@ body{
 .malavika{
     width:35px;
     height: 35px;
-    /* background-color: greenyellow; */
     border-radius: 50px;
-    /* border: 1px solid black; */
-    margin-top: 30px;
-    margin-left: 13px;
     background-image: url('./profile-pic/profile5.jpg');
     background-size: cover;
 }
-
-/* instagram id name */
-.instaid-5{
-    margin-top: 25px;
-    margin-left: 13px;
-}
-/* 3 dots edit area */
-#fa-ellipsis-vertical-5{
-    margin-top: 28px;
-    margin-left: 185px;
-}
-
 #box5{
     background-image: url('./other-insta-post/pic5.jpg');
     background-size: cover;
 }
 
-
 /* other insta  profile id 6 */
 .betta{
     width:35px;
     height: 35px;
-    /* background-color: greenyellow; */
     border-radius: 50px;
-    /* border: 1px solid black; */
-    margin-top: 30px;
-    margin-left: 13px;
     background-image: url('./profile-pic/profile6.png');
     background-size: cover;
-}
-
-/* instagram id name */
-.instaid-6{
-    margin-top: 25px;
-    margin-left: 13px;
-}
-/* 3 dots edit area */
-#fa-ellipsis-vertical-6{
-    margin-top: 28px;
-    margin-left: 232px;
 }
 
 #box6{
@@ -324,87 +230,35 @@ body{
 .fullmoon{
     width:35px;
     height: 35px;
-    /* background-color: greenyellow; */
     border-radius: 50px;
-    /* border: 1px solid black; */
-    margin-top: 30px;
-    margin-left: 13px;
     background-image: url('./profile-pic/profile7.jpg');
     background-size: cover;
-}
-
-/* instagram id name */
-.instaid-7{
-    margin-top: 25px;
-    margin-left: 13px;
-}
-/* 3 dots edit area */
-#fa-ellipsis-vertical-7{
-    margin-top: 28px;
-    margin-left: 220px;
 }
 
 #box7{
     background-image: url('./other-insta-post/pic7.png');
     background-size: cover;
 }
-
-
-/* other insta  profile id 8 */
 .flower{
     width:35px;
     height: 35px;
-    /* background-color: greenyellow; */
     border-radius: 50px;
-    /* border: 1px solid black; */
-    margin-top: 30px;
-    margin-left: 13px;
     background-image: url('./profile-pic/profile8.jpg');
     background-size: cover;
 }
 
-/* instagram id name */
-.instaid-8{
-    margin-top: 25px;
-    margin-left: 13px;
-}
-/* 3 dots edit area */
-#fa-ellipsis-vertical-8{
-    margin-top: 28px;
-    margin-left: 247px;
-}
 
 #box8{
     background-image: url('./other-insta-post/pic8.jpg');
     background-size: cover;
 }
-
-
-
-/* other insta  profile id 9 */
 .rose{
     width:35px;
     height: 35px;
-    /* background-color: greenyellow; */
     border-radius: 50px;
-    /* border: 1px solid black; */
-    margin-top: 30px;
-    margin-left: 13px;
     background-image: url('./profile-pic/profile9.jpg');
     background-size: cover;
 }
-
-/* instagram id name */
-.instaid-9{
-    margin-top: 25px;
-    margin-left: 13px;
-}
-/* 3 dots edit area */
-#fa-ellipsis-vertical-9{
-    margin-top: 28px;
-    margin-left: 222px;
-}
-
 #box9{
     background-image: url('./other-insta-post/pic9.jpg');
     background-size: cover;
@@ -416,24 +270,9 @@ body{
 .car{
     width:35px;
     height: 35px;
-    /* background-color: greenyellow; */
     border-radius: 50px;
-    /* border: 1px solid black; */
-    margin-top: 30px;
-    margin-left: 13px;
     background-image: url('./profile-pic/profile10.jpg');
     background-size: cover;
-}
-
-/* instagram id name */
-.instaid-10{
-    margin-top: 25px;
-    margin-left: 13px;
-}
-/* 3 dots edit area */
-#fa-ellipsis-vertical-10{
-    margin-top: 28px;
-    margin-left: 230px;
 }
 
 #box10{
