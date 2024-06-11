@@ -1,10 +1,7 @@
-*{
-    margin: 0px;
+body{
+    height: 100vh;
+    width: 100vw;
 }
-
-/* body{
-    height: 100%;
-} */
 
 .header-area{
     position: relative;
@@ -28,7 +25,11 @@
     background-image: url('./profile-pic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
     background-size: cover;
 }
+.dpname{
+font-weight: bold;
+font-family: cursive;
 
+}
 .profile-about{
     display: flex;
     justify-content: space-around;
@@ -59,6 +60,7 @@
 
 .bio{
     margin-left: 10px;
+    font-family: monospace;
 }
 
 /*edit profile,share profile*/
@@ -208,303 +210,303 @@
 }
 
 #box-1{
-    background-image: url('./insta-post/1.jpeg');
+    background-image: url('../public/insta-post/1.jpeg');
     background-size: cover;
 }
 
 #box-2{
-    background-image: url('./insta-post/2.jpeg');
+    background-image: url('../public/insta-post/2.jpeg');
     background-size: cover;
 }
 
 #box-3{
-    background-image: url('./insta-post/3.jpg');
+    background-image: url('../public/insta-post/3.jpg');
     background-size: cover;
 }
 
 #box-4{
-    background-image: url('./insta-post/4.jpeg');
+    background-image: url('../public/insta-post/4.jpeg');
     background-size: cover;
 }
 
 #box-5{
-    background-image: url('./insta-post/5.jpeg');
+    background-image: url('../public/insta-post/5.jpeg');
     background-size: cover;
 }
 
 #box-6{
-    background-image: url('./insta-post/6.jpg');
+    background-image: url('../public/insta-post/6.jpg');
     background-size: cover;
 }
 
 #box-7{
-    background-image: url('./insta-post/7.jpeg');
+    background-image: url('../public/insta-post/7.jpeg');
     background-size: cover;
 }
 
 #box-8{
-    background-image: url('./insta-post/8.jpg');
+    background-image: url('../public/insta-post/8.jpg');
     background-size: cover;
 }
 
 #box-9{
-    background-image: url('./insta-post/9.jpeg');
+    background-image: url('../public/insta-post/9.jpeg');
     background-size: cover;
 }
 
 #box-10{
-    background-image: url('./insta-post/10.jpg');
+    background-image: url('../public/insta-post/10.jpg');
     background-size: cover;
 }
 
 #box-11{
-    background-image: url('./insta-post/11.jpg');
+    background-image: url('../public/insta-post/11.jpg');
     background-size: cover;
 }
 
 #box-12{
-    background-image: url('./insta-post/12.jpg');
+    background-image: url('../public/insta-post/12.jpg');
     background-size: cover;
 }
 
 #box-13{
-    background-image: url('./insta-post/13.jpg');
+    background-image: url('../public/insta-post/13.jpg');
     background-size: cover;
 }
 
 #box-14{
-    background-image: url('./insta-post/14.jpg');
+    background-image: url('../public/insta-post/14.jpg');
     background-size: cover;
 }
 
 #box-15{
-    background-image: url('./insta-post/15.jpg');
+    background-image: url('../public/insta-post/15.jpg');
     background-size: cover;
 }
 
 #box-16{
-    background-image: url('./insta-post/16.jpg');
+    background-image: url('../public/insta-post/16.jpg');
     background-size: cover;
 }
 
 #box-17{
-    background-image: url('./insta-post/17.jpg');
+    background-image: url('../public/insta-post/17.jpg');
     background-size: cover;
 }
 
 #box-18{
-    background-image: url('./insta-post/18.jpg');
+    background-image: url('../public/insta-post/18.jpg');
     background-size: cover;
 }
 
 #box-19{
-    background-image: url('./insta-post/19.jpg');
+    background-image: url('../public/insta-post/19.jpg');
     background-size: cover;
 }
 
 #box-20{
-    background-image: url('./insta-post/20.jpg');
+    background-image: url('../public/insta-post/20.jpg');
     background-size: cover;
 }
 
 #box-21{
-    background-image: url('./insta-post/21.jpeg');
+    background-image: url('../public/insta-post/21.jpeg');
     background-size: cover;
 }
 
 #box-22{
-    background-image: url('./insta-post/22.jpg');
+    background-image: url('../public/insta-post/22.jpg');
     background-size: cover;
 }
 
 #box-23{
-    background-image: url('./insta-post/23.jpg');
+    background-image: url('../public/insta-post/23.jpg');
     background-size: cover;
 }
 
 #box-24{
-    background-image: url('./insta-post/24.jpg');
+    background-image: url('../public/insta-post/24.jpg');
     background-size: cover;
 }
 
 #box-25{
-    background-image: url('./insta-post/25.jpg');
+    background-image: url('../public/insta-post/25.jpg');
     background-size: cover;
 }
 
 #box-26{
-    background-image: url('./insta-post/26.jpg');
+    background-image: url('../public/insta-post/26.jpg');
     background-size: cover;
 }
 
 #box-27{
-    background-image: url('./insta-post/27.jpg');
+    background-image: url('../public/insta-post/27.jpg');
     background-size: cover;
 }
 
 #box-28{
-    background-image: url('./insta-post/28.jpg');
+    background-image: url('../public/insta-post/28.jpg');
     background-size: cover;
 }
 
 #box-29{
-    background-image: url('./insta-post/29.jpg');
+    background-image: url('../public/insta-post/29.jpg');
     background-size: cover;
 }
 
 #box-30{
-    background-image: url('./insta-post/30.jpg');
+    background-image: url('../public/insta-post/30.jpg');
     background-size: cover;
 }
 
 #box-31{
-    background-image: url('./insta-post/31.jpg');
+    background-image: url('../public/insta-post/31.jpg');
     background-size: cover;
 }
 
 #box-32{
-    background-image: url('./insta-post/32.jpg');
+    background-image: url('../public/insta-post/32.jpg');
     background-size: cover;
 }
 
 #box-33{
-    background-image: url('./insta-post/33.jpg');
+    background-image: url('../public/insta-post/33.jpg');
     background-size: cover;
 }
 
 #box-34{
-    background-image: url('./insta-post/34.jpg');
+    background-image: url('../public/insta-post/34.jpg');
     background-size: cover;
 }
 
 #box-35{
-    background-image: url('./insta-post/35.jpg');
+    background-image: url('../public/insta-post/35.jpg');
     background-size: cover;
 }
 
 #box-36{
-    background-image: url('./insta-post/36.jpg');
+    background-image: url('../public/insta-post/36.jpg');
     background-size: cover;
 }
 
 #box-37{
-    background-image: url('./insta-post/37.jpg');
+    background-image: url('../public/insta-post/37.jpg');
     background-size: cover;
 }
 
 #box-38{
-    background-image: url('./insta-post/38.jpg');
+    background-image: url('../public/insta-post/38.jpg');
     background-size: cover;
 }
 
 #box-39{
-    background-image: url('./insta-post/39.jpg');
+    background-image: url('../public/insta-post/39.jpg');
     background-size: cover;
 }
 
 #box-40{
-    background-image: url('./insta-post/40.jpg');
+    background-image: url('../public/insta-post/40.jpg');
     background-size: cover;
 }
 
 #box-41{
-    background-image: url('./insta-post/41.jpg');
+    background-image: url('../public/insta-post/41.jpg');
     background-size: cover;
 }
 
 #box-42{
-    background-image: url('./insta-post/42.jpeg');
+    background-image: url('../public/insta-post/42.jpeg');
     background-size: cover;
 }
 
 #box-43{
-    background-image: url('./insta-post/43.jpg');
+    background-image: url('../public/insta-post/43.jpg');
     background-size: cover;
 }
 
 #box-44{
-    background-image: url('./insta-post/44.jpg');
+    background-image: url('../public/insta-post/44.jpg');
     background-size: cover;
 }
 #box-45{
-    background-image: url('./insta-post/45.jpeg');
+    background-image: url('../public/insta-post/45.jpeg');
     background-size:cover;
 }
 
 #box-46{
-    background-image: url('./insta-post/46.jpg');
+    background-image: url('../public/insta-post/46.jpg');
     background-size: cover;
 }
 
 #box-47{
-    background-image: url('./insta-post/bike.jpg');
+    background-image: url('../public/insta-post/bike.jpg');
     background-size: cover;
 }
 
 #box-48{
-    background-image: url('./insta-post/48.jpg');
+    background-image: url('../public/insta-post/48.jpg');
     background-size: cover;
 }
 
 #box-49{
-    background-image: url('./insta-post/49.jpg');
+    background-image: url('../public/insta-post/49.jpg');
     background-size: cover;
 }
 
 #box-50{
-    background-image: url('./insta-post/50.jpg');
+    background-image: url('../public/insta-post/50.jpg');
     background-size: cover;
 }
 
 #box-51{
-    background-image: url('./insta-post/51.jpg');
+    background-image: url('../public/insta-post/51.jpg');
     background-size: cover;
 }
 
 #box-52{
-    background-image: url('./insta-post/52.jpg');
+    background-image: url('../public/insta-post/52.jpg');
     background-size: cover;
 }
 
 #box-53{
-    background-image: url('./insta-post/53.jpg');
+    background-image: url('../public/insta-post/53.jpg');
     background-size: cover;
 }
 
 
 
 #box-54{
-    background-image: url('./insta-post/54.jpg');
+    background-image: url('../public/insta-post/54.jpg');
     background-size: cover;
 }
 
 #box-55{
-    background-image: url('./insta-post/55.jpg');
+    background-image: url('../public/insta-post/55.jpg');
     background-size: cover;
 }
 
 #box-56{
-    background-image: url('./insta-post/56.jpg');
+    background-image: url('../public/insta-post/56.jpg');
     background-size: cover;
 }
 
 #box-57{
-    background-image: url('./insta-post/57.jpg');
+    background-image: url('../public/insta-post/57.jpg');
     background-size: cover;
 }
 
 #box-58{
-    background-image: url('./insta-post/58.jpg');
+    background-image: url('../public/insta-post/58.jpg');
     background-size: cover;
 }
 
 #box-59{
-    background-image: url('./insta-post/59.jpg');
+    background-image: url('../public/insta-post/59.jpg');
     background-size: cover;
 }
 
 #box-60{
-    background-image: url('./insta-post/60.jpg');
+    background-image: url('../public/insta-post/60.jpg');
     background-size: cover;
 }
 

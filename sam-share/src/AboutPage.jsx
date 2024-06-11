@@ -9,7 +9,7 @@ function AboutPage({ setPageTab, userId, handleNavigation }) {
         <i className="fa-solid fa-lock" />
       </div>
       <span>
-        <b>Pbs_bala_sislub</b>
+        <b>sam_dood1</b>
         <i className="fa-solid fa-chevron-down" />
       </span>
       <span />
@@ -60,27 +60,27 @@ function AboutPage({ setPageTab, userId, handleNavigation }) {
         </div>
       </div>
       <div className="bio">
-        <div>bala suresh sis🖤lub</div>
+        <div className='dpname'>Doodle Sam</div>
         <div>
-          <p>🐾☺️Thoothukudi &amp; Thirunelveli paiyan😜</p>
+          <p>🐾☺️TN 92&amp; Udi Boy😜</p>
         </div>
         <div>
-          <p>🐾18/07/199?</p>
+          <p>🐾05/04/199?</p>
         </div>
         <div>
-          <p>🐾EX-kascion</p>
+          <p>🐾Hill Drive Addict</p>
         </div>
         <div>
-          <p>🐾Sister❣️lub😘</p>
+          <p>🐾Dk❣️lub😘</p>
         </div>
         <div>
-          <p>🐾Fish🐬pet love😍</p>
+          <p>🐾Nature Lover😍</p>
         </div>
         <div>
-          <p>🐾Cs student 💻</p>
+          <p>🐾Wanna Developer  💻</p>
         </div>
         <div>
-          <p>🐾Mobile service:9942208269</p>
+          <p>🐾Always Love Others </p>
         </div>
       </div>
       <div className="edit-share-btn">
@@ -91,22 +91,22 @@ function AboutPage({ setPageTab, userId, handleNavigation }) {
         </div>
       </div>
       <div className="high-lights">
-        <div className="circle1">
+        <div className="min-high">
           <div className="high-1" />
-          <p>life part</p>
-        </div>
-        <div className="circle2">
-          <div className="high-2" />
-          <p>sislub</p>
-        </div>
-        <div className="circle3">
-          <div className="high-3" />
-          <p>kuttygoa</p>
-        </div>
-        <div className="circle5">
-          <div className="high-4" />
-          <p>quotes</p>
-        </div>
+          <span className='cont'>life part</span>
+          </div>
+          <div className="min-high">
+          <div className="high-2" /> 
+          <span className='cont'>sislub</span>
+          </div>
+          <div className="min-high">
+          <div className="high-3" /> 
+          <span className='cont'>kuttygoa</span>
+          </div>
+          <div className="min-high">
+          <div className="high-4" /> 
+          <span className='cont'>quotes</span>
+          </div>
       </div>
     </div>
     <div className="post-reels-tag">
@@ -122,7 +122,7 @@ function AboutPage({ setPageTab, userId, handleNavigation }) {
     </div>
     <div className="feed-post">
       <div className="box" id="box-1">
-        1
+        
       </div>
       <div className="box" id="box-2">
         2

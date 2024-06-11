@@ -5,6 +5,7 @@ import './Welcomepage.css'
 import './SignUpPage.css'
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
+import MessagePage from './MessagePage';
 function LognInPage({ setPageTab, setUserId }) {
   const[username,setUsername]=useState("");
   const[password,setPassword]=useState("");
@@ -217,7 +218,7 @@ function WelcomePage({ setPageTab }) {
 }
 
 function MainComp() {
-  const [pageTab, setPageTab] = useState("home");
+  const [pageTab, setPageTab] = useState("about");
   const [userId, setUserId] = useState("");
 
   const handleNavigation = (page) => {
@@ -231,6 +232,8 @@ function MainComp() {
       return <SignUpPage setPageTab={setPageTab} setUserId={setUserId} />;
     case "home":
       return <HomePage setPageTab={setPageTab} userId={userId} handleNavigation={handleNavigation} />;
+    case "message":
+      return <MessagePage setPageTab={setPageTab} userId={userId} handleNavigation={handleNavigation} />;
     case "about":
       return <AboutPage setPageTab={setPageTab} userId={userId} handleNavigation={handleNavigation} />;
     default:

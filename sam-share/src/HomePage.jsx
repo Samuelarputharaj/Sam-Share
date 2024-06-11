@@ -11,7 +11,7 @@ function HomePage({ setPageTab, userId, handleNavigation }) {
             <i className="fa-regular fa-heart" />
           </div>
           <div>
-            <i className="fa-brands fa-facebook-messenger" />
+            <i className="fa-brands fa-facebook-messenger" onClick={() => handleNavigation("message")}/>
           </div>
         </div>
       </header>
