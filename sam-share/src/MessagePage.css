@@ -42,18 +42,18 @@
 
 
 
-.circle1{
+.mes-circle1{
     width: 75px;
     height: 75px;
     /* background-color: greenyellow; */
     border-radius: 50px;
     margin-top: 15px;
     margin: 10px;
-    background-image:url('./msgstorypic/profilepic.jpg');
+    background-image:url('./msgstorypic/WhatsApp\ Image\ 2024-06-01\ at\ 8.31.04\ AM.jpeg');
     background-size: cover;
 }
 
-.circle2{
+.mes-circle2{
     width: 75px;
     height: 75px;
     /* background-color: greenyellow; */
@@ -64,7 +64,7 @@
     background-size: cover;
 }
 
-.circle3{
+.mes-circle3{
     width: 75px;
     height: 75px;
     /* background-color: greenyellow; */
@@ -75,7 +75,7 @@
     background-size: cover;
 }
 
-.circle4{
+.mes-circle4{
     width: 75px;
     height: 75px;
     /* background-color: greenyellow; */

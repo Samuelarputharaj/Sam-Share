@@ -218,12 +218,8 @@ function WelcomePage({ setPageTab }) {
 }
 
 function MainComp() {
-  const [pageTab, setPageTab] = useState("about");
+  const [pageTab, setPageTab] = useState("home");
   const [userId, setUserId] = useState("");
-
-  const handleNavigation = (page) => {
-    setPageTab(page);
-  };
 
   switch (pageTab) {
     case "sign-in":
@@ -231,25 +227,19 @@ function MainComp() {
     case "sign-up":
       return <SignUpPage setPageTab={setPageTab} setUserId={setUserId} />;
     case "home":
-      return <HomePage setPageTab={setPageTab} userId={userId} handleNavigation={handleNavigation} />;
-    case "message":
-      return <MessagePage setPageTab={setPageTab} userId={userId} handleNavigation={handleNavigation} />;
+      return <HomePage setPageTab={setPageTab} userId={userId}  />;
+    case "chat":
+      return <MessagePage setPageTab={setPageTab} userId={userId} />;
     case "about":
-      return <AboutPage setPageTab={setPageTab} userId={userId} handleNavigation={handleNavigation} />;
+      return <AboutPage setPageTab={setPageTab} userId={userId}/>;
     default:
-      return <WelcomePage setPageTab={setPageTab} handleNavigation={handleNavigation} />;
+      return <WelcomePage setPageTab={setPageTab}/>;
   }
 }
 
 
 function App() {
-    return (
-        <div className="App">
-            <div className="App-header">
-                <MainComp />
-            </div>
-        </div>
-    );
+    return <MainComp />
 }
 
 export default App;

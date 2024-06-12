@@ -1,5 +1,5 @@
 import './AboutPage.css';
-function AboutPage({ setPageTab, userId, handleNavigation }) {
+function AboutPage({ setPageTab, userId }) {
     return(
 <>
   <title>About</title>
@@ -306,7 +306,7 @@ function AboutPage({ setPageTab, userId, handleNavigation }) {
   <footer>
     <div className="footer-area">
       <div>
-        <i className="fa-solid fa-house"  onClick={() => handleNavigation("home")}/>
+        <i className="fa-solid fa-house"  onClick={() => setPageTab("home")}/>
       </div>
       <div>
         <i className="fa-solid fa-magnifying-glass" />
@@ -317,7 +317,7 @@ function AboutPage({ setPageTab, userId, handleNavigation }) {
       <div>
         <i className="fa-brands fa-youtube" />
       </div>
-      <div className="smallcircle" />
+      <div className="smallcircle" onClick={() => setPageTab("about")}/>
     </div>
   </footer>
 </>

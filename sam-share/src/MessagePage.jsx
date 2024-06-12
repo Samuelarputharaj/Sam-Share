@@ -1,11 +1,11 @@
 import './MessagePage.css';
-function MessagePage({ setPageTab, userId, handleNavigation }) {
+function MessagePage() {
     return(
         <>
             <header>
           <div className="header-area">
             <div>
-              <i className="fa-solid fa-arrow-left" onClick={handleNavigation("message")}/>
+              <i className="fa-solid fa-arrow-left"/>
             </div>
             <span className="id-name">
               <b>sam_dood1</b>
@@ -19,22 +19,22 @@ function MessagePage({ setPageTab, userId, handleNavigation }) {
         </header>
         <section>
           <div className="search-box">
-            <input type="text" placeholder="search" className="search" />
+          <input type="text" id="username" name="username"/>
           </div>
           <div className="storyarea">
-            <div className="circle1">
+            <div className="mes-circle1">
               <div className="cirimg1" />
               <p id="story1">your story</p>
             </div>
-            <div className="circle2">
+            <div className="mes-circle2">
               <div className="cirimg2" />
               <p id="story2">fortuner</p>
             </div>
-            <div className="circle3">
+            <div className="mes-circle3">
               <div className="cirimg3" />
               <p id="story3">crysta</p>
             </div>
-            <div className="circle4">
+            <div className="mes-circle4">
               <div className="cirimg4" />
               <p id="story4">scorbio</p>
             </div>

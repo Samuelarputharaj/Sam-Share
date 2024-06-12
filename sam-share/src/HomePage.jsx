@@ -1,5 +1,5 @@
 import './HomePage.css';
-function HomePage({ setPageTab, userId, handleNavigation }) {
+function HomePage({ setPageTab, userId}) {
   return (
     <>
       <header>
@@ -11,7 +11,7 @@ function HomePage({ setPageTab, userId, handleNavigation }) {
             <i className="fa-regular fa-heart" />
           </div>
           <div>
-            <i className="fa-brands fa-facebook-messenger" onClick={() => handleNavigation("message")}/>
+            <i className="fa-brands fa-facebook-messenger" onClick={setPageTab('chat')}/>
           </div>
         </div>
       </header>
@@ -354,7 +354,7 @@ function HomePage({ setPageTab, userId, handleNavigation }) {
           <div>
             <i className="fa-brands fa-youtube" />
           </div>
-          <div className="smallcircle" onClick={() => handleNavigation("about")} />
+          <div className="smallcircle" onClick={() =>setPageTab("about")} />
         </div>
       </footer>
     </>
