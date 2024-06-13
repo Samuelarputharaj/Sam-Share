@@ -1,5 +1,22 @@
+import axios from 'axios';
 import './HomePage.css';
+import { useState } from 'react';
 function HomePage({ setPageTab, userId}) {
+  
+  const HeartComponent = () => {
+    const [filled, setFilled] = useState(false);
+  const handleHeartClick = async () => {
+    try {
+      // Toggle the filled state
+      setFilled(!filled);
+
+      // Update the backend
+      await axios.post('/heart', { filled: !filled });
+    } catch (err) {
+      console.error(err);
+    }
+  };
+  }
   return (
     <>
       <header>
@@ -10,9 +27,7 @@ function HomePage({ setPageTab, userId}) {
           <div>
             <i className="fa-regular fa-heart" />
           </div>
-          <div>
-            <i className="fa-brands fa-facebook-messenger" onClick={setPageTab('chat')}/>
-          </div>
+            <i className="fa-brands fa-facebook-messenger" onClick={() =>setPageTab("chat")}/>
         </div>
       </header>
       <section>
@@ -53,7 +68,7 @@ function HomePage({ setPageTab, userId}) {
       <div className="status-box" id="box1"></div>
       <div className="img-icons">
         <div>
-          <i className="fa-regular fa-heart" id="heart" />
+           <i className={`fa-regular fa-heart${filled ? ' active' : ''}`} onClick={handleHeartClick}></i>
         </div>
         <div>
           <i className="fa-regular fa-comment" id="comment" />

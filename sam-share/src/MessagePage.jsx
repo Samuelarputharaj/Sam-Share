@@ -1,11 +1,11 @@
 import './MessagePage.css';
-function MessagePage() {
+function MessagePage({ setPageTab, userId}) {
     return(
         <>
             <header>
           <div className="header-area">
             <div>
-              <i className="fa-solid fa-arrow-left"/>
+              <i className="fa-solid fa-arrow-left" onClick={() =>setPageTab("home")}/>
             </div>
             <span className="id-name">
               <b>sam_dood1</b>
@@ -19,7 +19,7 @@ function MessagePage() {
         </header>
         <section>
           <div className="search-box">
-          <input type="text" id="username" name="username"/>
+          <input type="text" />
           </div>
           <div className="storyarea">
             <div className="mes-circle1">
